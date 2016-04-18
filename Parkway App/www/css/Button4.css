@@ -4,13 +4,17 @@ body{
     margin: 0;
 }
 .header {
+    padding-top: 50px;
     width: 100%;
     height: 15%;
     top: 0;
     z-index: 1;
-    background-color: #41A317;
+    background-color: white;
     position: fixed;
     text-align: center;
+    background-image: url(../img/parkwaycropped.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-text{
@@ -19,7 +23,7 @@ body{
 }
 
 .container{
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 input[type=text]{
