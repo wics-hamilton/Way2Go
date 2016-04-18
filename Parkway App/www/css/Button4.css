@@ -17,9 +17,11 @@ body{
     background-position: center;
 }
 
-.header-text{
+.right{
     position: absolute;
+    right:0px;
     bottom: 0;
+    padding-top: 70px;
 }
 
 .container{
