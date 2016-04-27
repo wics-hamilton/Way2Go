@@ -12,21 +12,46 @@ Button for videos
     <link href="css/Button4.css" type="text/css" rel="stylesheet" /> 
     <!-- link to font awesome icon -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script> 
+    $(document).ready(function(){
+        $("#flip").click(function(){
+            
+     $("#panel").slideToggle("slow");
+        });
+    });
+</script>
+    
 </head>
 <body>
     <div class="header">
-        <div class="right"> 
-            <a href="index.html">
+         <div class="left">
+        <a href="index.html">
             <i class="fa fa-home" aria-hidden="true" style="font-size:40px; color:black;"></i>
-            </a>
-        </div>
+            </a> 
+        </div>Videos &amp; Instructionals 
     </div>
     <div class="container">
         <form> <input type="text" name="searchvid" placeholder="Search...">
         </form>
         <br>
-        Hello World. Thissss is a paragraph. Cool. idk if this is workinggg.
+        Videosss
     </div>
+    
+    <div id="flip"> Video #1
+    </div>
+    <div id="panel">
+        <!-- Take out once videos come in. Also figure out how to keep video in box thingy-->
+        <div class="video">
+        <iframe width="420" height="315" src="https://www.youtube.com/watch?v=L1xT_0aQ2iU"> </iframe>
+        iusfuisdf</div>
+        </div>
+    <footer>
+        <div class="footer">
+        <img src="../www/img/parkwaycropped.png" alt="Way2Go Footer" style="width:100px;height:50;">
+        </div>
+    </footer>
 </body>
 
 </html>
